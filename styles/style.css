@@ -6,6 +6,7 @@
     background-image: url(../images/developer.png) ,url(../images/header_bg.png); 
     background-repeat: no-repeat;
     background-position: top left,bottom right;
+    background-size: contain;
     
 }
 section{
@@ -95,12 +96,15 @@ article div{
     display: flex;
     justify-content: space-around;
     align-items: first baseline;
+    gap: 100px;
 }
 
 .What-i-do{
     display: flex;
     flex-direction: column;
-    margin-top: 80px;
+     margin-top: 80px;
+     padding: 0 70px;
+     align-items: center;
 }
 
 .boro{
@@ -109,7 +113,7 @@ article div{
     flex-direction:row;
     gap: 80px;
     align-items: first baseline;
-    justify-content:first baseline ;
+    justify-content: baseline ;
 }
 
 .coto{
@@ -125,4 +129,48 @@ article div{
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    align-items:first baseline ;
+    gap: 24px;
+    margin-top: 70px;
+}
+
+.box{
+    
+    max-width: 190px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 20px 10px;
+}
+
+.chobi{
+    display: flex;
+    gap: 26px;
+}
+
+input[Type="text"],input[Type="email"]
+
+{
+
+    display: block;
+    height: 64px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+
+}
+
+textarea
+
+{
+
+    display: block;
+    
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+
+
 }

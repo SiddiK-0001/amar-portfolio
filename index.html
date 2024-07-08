@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web dev portfolio</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/078f21d85a.js" crossorigin="anonymous"></script>
 </head>
 <body style="font-family: open sans;">
     <header class="banner second-bg">
@@ -25,8 +26,8 @@
                      Ab Siddique</p>
                 <p class="textonk" style="font-size: 15px;">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p><br><br>
 
-                <p style="display: flex;gap:30px;"><button class="btn">Download Cv</button>
-                    <button class="btn">Contact</button>
+                <p style="display: flex;gap:30px;"><button class="btn"><i class="fa-solid fa-download"></i> Download Cv</button>
+                    <button class="btn"><i class="fa-solid fa-phone"></i> Contact</button>
                 </p>
             </div>
 
@@ -38,7 +39,7 @@
 
     </header>
 
-    <main style="max-width: 1000px;margin:0 auto;">
+    <main style="max-width: 1300px;margin:0 auto;">
 
  <!-- section.about>p.title+p.subtitle+div.item>div*4>p.subtitle+p.textonk -->
 
@@ -51,19 +52,19 @@
             <div class="item" >
                 <div>
                     <p class="subtitle">Name </p>
-                    <p class="textonk">Abu Bakar Siddique</p>
+                    <p class="textonk" style="font-size: 15px;">Abu Bakar Siddique</p>
                 </div>
                 <div>
                     <p class="subtitle">Email</p>
-                    <p class="textonk" >absiddik                109816@gmail.com</p>
+                    <p class="textonk"style="font-size: 15px;" >absiddik                109816@gmail.com</p>
                 </div>
                 <div>
                     <p class="subtitle">Date of birth</p>
-                    <p class="textonk">17th October,2004</p>
+                    <p class="textonk"style="font-size: 15px;">17th October,2004</p>
                 </div>
                 <div>
                     <p class="subtitle">From</p>
-                    <p class="textonk">Tongi,Gazipur</p>
+                    <p class="textonk"style="font-size: 15px;">Tongi, Gazipur</p>
                 </div>
             </div>
         </section>
@@ -73,7 +74,41 @@
         <section class="What-i-do">
             <p class="title">What I do</p>
             <p class="subtitle">I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
-        </section>
+        </section><br><br>
+<!-- section.skills>div*4>img+p.title+p.subtitle -->
+<section class="skills" >
+    <div class="box">
+        <img width="30px" src="./images/icons/mongo.png" alt=""><br><br>
+        <p class="title" style="font-size: 20px;">MongoDB</p><br>
+        <p class="subtitle">
+            List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+    </div>
+    <div class="box">
+        <img width="30px" src="./images/icons/js.png" alt=""><br><br>
+        <p class="title"style="font-size: 20px;">Vanilla Javascript </p><br>
+        <p class="subtitle">
+            List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+    </div>
+    <div class="box">
+        <img width="30px"src="./images/icons/react.png" alt=""><br><br>
+        <p class="title"style="font-size: 20px;">React</p><br>
+        <p class="subtitle">
+            List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+    </div>
+    <div class="box">
+        <img width="30px" src="./images/icons/nodejs.png" alt=""><br><br>
+        <p class="title"style="font-size: 20px;">Node.Js</p><br>
+        <p class="subtitle">
+            List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+    </div>
+</section>
+
+
+
+
+
+
+
 <!--  section.title>div*2>div*3>p*2.textonk+p*2.subtitle -->
 
        <br> <br><br><br> 
@@ -135,23 +170,48 @@
             </div>
         </section>
 <br><br>
-        <section class="CV"><button class="btn">Download CV</button></section>
+        <section class="CV"><button class="btn"><i class="fa-solid fa-download"></i> Download CV</button></section>
 
 
 
     </main>
 
+<footer class="second-bg">
+    <section class="boro" style="padding: 100px 70px;">
 
-    <footer class="second-bg">
-        <section class="boro" style="padding: 100px 70px;">
-            <div><p class="title">Lets Connect </p><br>
-                <p class="subtitle" style="max-width:400px;"> Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+        <div><p class="title">Lets Connect </p><br>
+             <p class="subtitle" style="max-width:400px;"> Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+             <br><br>
+
+                <div class="chobi">
+                    <img src="./images/icons/facebook.png" alt="">   
+                    <img src="./images/icons/insta.png"alt="">   
+                    <img src="./images/icons/twitter.png" alt="">
+                </div> 
+        </div>
+
+
+
+            <div> <p class="title">Let's Message me</p>
+
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Your name"><br>
+                    <input type="email" name="" id=""placeholder="Your email"><br>
+                    <textarea name="" id="" rows="10" placeholder="Message"></textarea><br>
+
+                    <input class="btn" type="submit" value="Submit">
+                </form>
             
-
+            
+            
+            
             
             </div>
-            <div> <p class="title">Let's Message me</p></div>
-        </section>
+
+
+
+
+    </section>
 
 
 
