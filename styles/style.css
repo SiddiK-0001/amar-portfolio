@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-
+*{margin: 0px 0px}
 
 .banner{
     background-image: url(../images/developer.png) ,url(../images/header_bg.png); 
     background-repeat: no-repeat;
     background-position: top left,bottom right;
+    
 }
 section{
     display: flex;
@@ -30,11 +31,11 @@ section li a{
     text-decoration: none;
     
 }
-
+/* shared styles */
 .textonk{
     color: #474747;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .btn{
@@ -47,6 +48,22 @@ section li a{
      border-radius: 8px;
 }
 
+.second-bg{
+    background-color: #FFF8F3;
+   
+}
+.title{
+    font-size: 35px;
+    color: #181818;
+    font-weight: bold;
+
+}
+.subtitle{
+    font-size: 15px;
+    color: #757575;
+    font-weight:regular;
+
+}
 .uprerlekha{
     max-width: 500px;
    
@@ -64,4 +81,48 @@ article div{
     align-items: left;
     flex-direction: column;
     margin-top: 100px;
+}
+
+/* about me  */
+
+.about{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 100px 80px 100px;
+    margin-top: 80px;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: first baseline;
+}
+
+.What-i-do{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.boro{
+
+    display:flex ;
+    flex-direction:row;
+    gap: 80px;
+    align-items: first baseline;
+    justify-content:first baseline ;
+}
+
+.coto{
+    display: flex;
+    flex-direction: column;
+}
+.summary{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.CV{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
